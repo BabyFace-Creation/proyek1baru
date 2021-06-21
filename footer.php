@@ -10,7 +10,7 @@
 								<h3 class="footer-title">About Us</h3>
 								<p>This is Our Small Database Management System mini project</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore ,Kumbalagodu</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Indonesia ,Kumbalagodu</a></li>
 									<li><a href="#"><i class="fa fa-phone"></i>+XXX</a></li>
 									<li><a href="#"><i class="fa fa-envelope-o"></i>@gmail.com</a></li>
 								</ul>

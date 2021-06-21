@@ -16,27 +16,10 @@ if(isset($_POST["categoryhome"])){
 					<!-- NAV -->
 					<ul class='main-nav nav navbar-nav'>
                     <li class='active'><a href='index.php'>Home</a></li>
-                    <li><a href='store.php'>Electronics</a></li>
+                    <li><a href='store.php'>Select Category</a></li>
 	";
 	if(mysqli_num_rows($run_query) > 0){
-		while($row = mysqli_fetch_array($run_query)){
-			$cid = $row["cat_id"];
-			$cat_name = $row["cat_title"];
-            
-            $sql = "SELECT COUNT(*) AS count_items FROM products,categories WHERE product_cat=cat_id";
-            $query = mysqli_query($con,$sql);
-            $row = mysqli_fetch_array($query);
-            $count=$row["count_items"];
-            
-            
-            
-			echo "
-					
-                    
-                               <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>
-                    
-			";
-		}
+		//Navigation
         
 		echo "</ul>
 					<!-- /NAV -->

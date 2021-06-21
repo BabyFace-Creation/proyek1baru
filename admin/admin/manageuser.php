@@ -54,7 +54,7 @@ include "topheader.php";
                           <td>$address1</td>
                            <td>$address2</td>";
                         echo"<td>
-                     
+                        <a href='edituser.php?user_id=$user_id'>Edit</a>
                         <a class='btn btn-danger' href='manageuser.php?user_id=$user_id&action=delete'>Delete<div class='ripple-container'></div></a>
                         </td></tr>";
                         }

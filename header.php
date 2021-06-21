@@ -124,7 +124,7 @@ session_start();
 					<ul class="header-links pull-left">
 						<li><a href="#"><i class="fa fa-phone"></i> +XXX</a></li>
 						<li><a href="#"><i class="fa fa-envelope-o"></i> gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>Indonesia</a></li>
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
