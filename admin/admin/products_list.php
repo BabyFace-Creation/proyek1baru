@@ -88,13 +88,13 @@ include "topheader.php";
                 $paging=mysqli_query($con,"select product_id,product_image, product_title,product_price from products");
                 $count=mysqli_num_rows($paging);
 
-                $a=$count/10;
+                $a=$count/5;
                 $a=ceil($a);
                 
                 for($b=1; $b<=$a;$b++)
                 {
                 ?> 
-                <li class="page-item"><a class="page-link" href="productlist.php?page=<?php echo $b;?>"><?php echo $b." ";?></a></li>
+                <li class="page-item"><a class="page-link" href="products_list.php?page=<?php echo $b;?>"><?php echo $b." ";?></a></li>
                 <?php	
 }
 ?>
